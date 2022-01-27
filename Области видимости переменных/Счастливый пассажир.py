@@ -1,3 +1,7 @@
+lastTicket = ''  # эту строчку копировать не надо. Добавил, чтобы скрыть ошибки в GitHub.
+
+
+
 def lucky(ticket):
     global lastTicket
     x, y = int(len(str(ticket)) / 2), int(len(str(lastTicket)) / 2)
